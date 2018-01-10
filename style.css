@@ -1,0 +1,246 @@
+html {
+    background-color: black;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: black;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+#start {
+    margin-top: 20vw;
+}
+
+.section1 {
+    width: 100%;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 6em;
+    font-family: 'Baloo Bhaijaan', cursive;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 6em;
+    font-family: 'Baloo Bhaijaan', cursive;
+}
+
+h3{
+    text-align: center;	
+}
+
+#button button {
+    display: flex;
+    margin: 0 auto 0 auto;
+    width: 200px;
+    height: 90px;
+    text-align: center;
+    justify-content: center;
+    font-size: 3em;
+    vertical-align: middle;
+    border: 3px solid white;
+    background-color: black;
+    color: white;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: 2.5vh;
+    transition: 500ms ease-out;
+}
+
+#button button:hover {
+    border: 6px solid #67ffa7;
+    color: #67ffa7;
+    background-color: #000000;
+    width: 240px;
+    height: 110px;
+    font-size: 5em;
+    font-weight: 500;
+}
+
+#button1 {
+    display: flex;
+    margin: 0 auto 0 auto;
+    width: 200px;
+    height: 90px;
+    text-align: center;
+    justify-content: center;
+    font-size: 3em;
+    vertical-align: middle;
+    border: 3px solid white;
+    background-color: black;
+    color: white;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    transition: 500ms ease-out;
+}
+
+#button1:hover {
+    border: 6px solid #67ffa7;
+    color: #67ffa7;
+    background-color: #000000;
+    width: 240px;
+    height: 110px;
+    font-size: 5em;
+    font-weight: 500;
+}
+
+#button2 button {
+    display: flex;
+    margin: 0 auto 0 auto;
+    width: 220px;
+    height: 130px;
+    text-align: center;
+    justify-content: center;
+    font-size: 3em;
+    vertical-align: middle;
+    border: 3px solid #ffffff;
+    background-color: #000000;
+    color: #ffffff;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    transition: 500ms ease-out;
+    margin-top: 12vh;
+}
+
+#button2 button:hover {
+    border: 6px solid #67ffa7;
+    color: #67ffa7;
+    background-color: #000000;
+    width: 280px;
+    height: 180px;
+    font-size: 4.2em;
+    font-weight: 600;
+}
+
+#litery {
+    width: 100%;
+}
+
+#litery span {
+    display: inline-block;
+    width: 14%;
+    margin-right: 3%;
+    margin-left: 3%;
+    font-size: 2.5em;
+    background-color: #00e6ff;
+    margin-bottom: 5vh;
+    cursor: pointer;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 3px solid lightblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+    transition: 500ms ease-out;
+    font-family: 'Baloo Bhaijaan', cursive;
+}
+
+#litery span:last-child {
+    margin-right: 0%;
+}
+
+#litery span:hover {
+    background-color: orangered;
+    border: 3px solid white;
+}
+
+#counter {
+    color: orangered;
+    text-align: center;
+}
+
+#counter h3 {
+    font-size: 3em;
+    margin-top: 10vh;
+}
+
+#obrazki img {
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.3));
+    display: block;
+    text-align: center;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    height: 25%;
+}
+
+#litera span {
+    float: left;
+    width: 5%;
+    font-size: 2em;
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 40px;
+    color: white;
+    font-family: 'Baloo Bhaijaan', cursive;
+    border: 1px solid white;
+    transition: 500ms ease-out;
+}
+
+#litera span:last-child {
+    margin-right: 0%;
+}
+
+#litera span:hover {
+    border: 3px solid #ff4500;
+    cursor: pointer;
+    color: #ff4500;
+}
+
+#pusty span {
+    float: left;
+    width: 5%;
+    font-size: 2em;
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 40px;
+    border: 1px solid white;
+    transition: 500ms ease-out;
+}
+
+#pusty span:last-child {
+    margin-right: 0%;
+}
+
+#pusty span:hover {
+    border: 3px solid #ff4500;
+}
+
+#pusty {
+    position: relative;
+}
+
+.center {
+    width: 60%;
+    margin-left: 50%;
+}
+
+@media only screen and (max-width: 700px) {
+    #litery {
+        font-size: 3em;
+    }
+    
+    #litera{
+        
+    }
+    
+}
+
+
+
+
